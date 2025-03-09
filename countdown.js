@@ -1,4 +1,4 @@
-const countDate = document.getElementById("user-date")
+const countDate = document.getElementById("user-date");
 let counter = document.getElementById("counter");
 
 const intervalCounter = setInterval(function() {
