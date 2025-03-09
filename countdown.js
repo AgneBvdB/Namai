@@ -1,5 +1,6 @@
 const countDate = document.getElementById("user-date");
 let counter = document.getElementById("counter");
+let btn = document.getElementById("user-button");
 
 const intervalCounter = setInterval(function() {
   let currentDate = new Date().getTime();
@@ -17,3 +18,5 @@ const intervalCounter = setInterval(function() {
     counter.innerText = "Finished!";
   }
 }, 1000);
+
+btn.addEventListener("click", intervalCounter);
