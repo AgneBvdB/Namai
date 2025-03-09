@@ -1,6 +1,6 @@
 const countDate = document.getElementById("user-date");
 let counter = document.getElementById("counter");
-let btn = document.getElementById("user-button");
+let btn = document.getElementById("user-btn");
 
 const intervalCounter = setInterval(function() {
   let currentDate = new Date().getTime();
